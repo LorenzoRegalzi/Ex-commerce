@@ -24,4 +24,8 @@ if(!$connection){
 }
 
 //andiamo su public->index per i collegamenti
+
+//richiamiamo le funzioni
+require_once('function.php');        
+
 ?>

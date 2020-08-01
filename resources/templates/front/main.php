@@ -1,1 +1,4 @@
-<h1>sono il main</h1>
+<?php
+    mostraProdotti();
+?> 
+
