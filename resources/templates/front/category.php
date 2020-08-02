@@ -14,9 +14,8 @@ if(!$showcategories){
 //ciclo che ci permette di visualizzare le nostre categorie
 
 while($row = mysqli_fetch_array($showcategories)){
-    echo  " <a href='#' '>{$row['name_cat']}</a>";
+    echo  "<a href='#' '>{$row['name_cat']}</a>";
 }
 
 ?>
 
-<h1>sono la sidebar</h1>
